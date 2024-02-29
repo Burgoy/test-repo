@@ -20,6 +20,7 @@ import java.util.UUID;
 @Slf4j
 public class Controller {
 
+    //просто изменение в классе
     @GetMapping
     public ResponseEntity<?> hello(HttpServletRequest request){
         return ResponseEntity.ok("Hello " + request.getRemoteUser());
